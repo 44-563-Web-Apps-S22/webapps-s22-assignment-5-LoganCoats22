@@ -13,6 +13,22 @@
 
 </head>
 <body>
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <a class="navbar-brand" href="birds.html">Interesting Birds</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapse">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-link active">
+          <a class="nav-link" href="basic.html">Basic</a>
+        </li>
+        <li class="nav-link active">
+          <a class="nav-link" href="advanced.html">Advance</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
   <h1>Birds are cool.</h1>
   <p>
     <div class="container">
@@ -113,9 +129,24 @@
         <li><a class="dropdown-item" href="basic.html">Basic</a></li>
         <li><a class="dropdown-item" href="advanced.html">Advance</a></li>
       </ul>
-    
-      
     </div>
+    <form>
+      <div class="form-group">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+      </div>
+      <div class="form-group">
+        <label>Bird</label>
+        <input type="text" class="form-control" aria-describedby="birdhelp">
+        <div id="birdhelp" class="form-text">Enter your bird</div>
+      </div>
+      <div class="form-check">
+        <label class="form-check-label" for="disabledFieldsetCheck">Sign up for newsletter?</label>
+        <input type="checkbox" class="form-check-input">
+      </div>
+      <button class="btn btn-primary" type="submit">Submit</button>
+    </form>
   </p>
 
 </body>
